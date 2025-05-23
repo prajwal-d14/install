@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
@@ -14,3 +15,5 @@ sudo apt-get install jenkins
 sudo systemctl enable jenkins
 
 sudo systemctl start jenkins
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
