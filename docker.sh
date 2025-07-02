@@ -16,8 +16,5 @@ sudo apt install -y docker-ce
 
 sudo systemctl status docker
 
-sudo usermod -aG docker ${USER}
-
-su - ${USER}
 
 
